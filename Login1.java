@@ -49,7 +49,7 @@ public class Login1 {
 			
 		    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);*/
 		    
-			driver.get("https://login.salesforce.com/");
+			driver.get("https://login.salesforce.com//");
 			driver.manage().window().maximize();
 			
 			driver.findElement(By.xpath(".//*[@id='username']")).sendKeys("User name");
